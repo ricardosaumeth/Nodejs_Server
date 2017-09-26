@@ -1,0 +1,24 @@
+1. npm install --save passport passport-google-oauth20
+2. Go to : https://console.developers.google.com
+3. Click select a project
+4. Click + symbol
+5. give it name: emaily-dev
+6. Click create
+7. Make sure you selct the project on the dropdown windows
+8. Click ENABLE
+9. search for google+
+10. Click credentials on the "left" of the window
+11. Click create credentials and then select Oauth client ID, click configure consent screen
+12. in product name type: emaily-dev. click save
+13. select Web application
+14. For Authorized JavaScript origins type: http://localhost:5000
+15. For Authorized redirect URIs type: http://localhost:5000/*
+16. click create
+17. Copy the data given by google. ClientID and ClientSecret
+    e.g.
+        // ClientID: 682267437812-45m7qu85r40unebq36njp5r99m561bli.apps.googleusercontent.com
+        // ClientSecret: PAOGDr6XJVBAASbansIop3-0
+
+/**************************************************************************************/
+
+Add in the inde.js the passport.use and app.get        

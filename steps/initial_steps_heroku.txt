@@ -39,6 +39,13 @@
   8.8 heroku open
   8.9 if any error run heroku logs
 
+  8.9 Subsequent Deploys
+    see video 14
+    git status
+    git add .
+    git commit -m "<comment>"
+    git push heroku master
+
 
 
 

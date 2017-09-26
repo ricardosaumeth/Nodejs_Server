@@ -7,7 +7,7 @@
     "node": "8.5.0",
     "npm": "5.4.2"
   },
-  "scripts":{
+  "scripts": {
     "start": "node index.js"
   },
   "repository": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/ricardosaumeth/server#readme",
   "dependencies": {
-    "express": "^4.15.5"
+    "express": "^4.15.5",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   }
 }
