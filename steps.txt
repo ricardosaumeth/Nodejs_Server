@@ -6,4 +6,20 @@
 5. create an index.js 
   add the code...
 6. update node and npm
-7.   
+7. add the commands to json file
+  check git --version
+  if we do not have the repo create in git type
+  TUTORIAL:  https://try.github.io/levels/1/challenges/1
+  7.1 git init
+  7.2 git add .   => add the file to the staging area
+  7.2 git commit -m "<comment>"
+  7.3 push if necessary
+    => git remote add origin https://github.com/ricardosaumeth/server.git
+       git push -u origin master
+  7.4 To update the code in our local machine
+    => git pull origin master     
+8. Steps to heroku  
+  8.1 Create an account if needed
+  8.2 Install heroku CLI
+  8.3 heroku -v
+  8.4 
