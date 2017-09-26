@@ -1,0 +1,9 @@
+1. Create a folder named server 
+2. Create a .gitignore 
+*** USING Git Bash *** 
+3. npm init => everything default 
+4. npm install --save express
+5. create an index.js 
+  add the code...
+6. update node and npm
+7.   
