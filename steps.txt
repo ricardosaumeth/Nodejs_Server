@@ -22,4 +22,37 @@
   8.1 Create an account if needed
   8.2 Install heroku CLI
   8.3 heroku -v
-  8.4 
+  8.4 heroku login
+  8.4.1 Enter your credential
+  8.5  heroku create
+    we got 2 http.
+    1. for our website address
+    2. for the http to push using git
+    e.g. https://secure-shelf-66386.herokuapp.com/ | https://git.heroku.com/secure-shelf-66386.git
+
+  8.6 push to heroku using git
+    git remote  add heroku https://git.heroku.com/secure-shelf-66386.git
+  NOTE: we might get an error! 
+    e.g. fatal: remote heroku already exists.
+
+  8.7  git push heroku master    
+  8.8 heroku open
+  8.9 if any error run heroku logs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
