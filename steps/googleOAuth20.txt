@@ -12,7 +12,7 @@
 12. in product name type: emaily-dev. click save
 13. select Web application
 14. For Authorized JavaScript origins type: http://localhost:5000
-15. For Authorized redirect URIs type: http://localhost:5000/*
+15. For Authorized redirect URIs type: http://localhost:5000/auth/google/callback
 16. click create
 17. Copy the data given by google. ClientID and ClientSecret
     e.g.
@@ -21,4 +21,5 @@
 
 /**************************************************************************************/
 
-Add in the inde.js the passport.use and app.get        
+18. Add in the inde.js the passport.use and app.get 
+19. npm install --save nodemon       
