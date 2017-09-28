@@ -1,0 +1,13 @@
+1. go to mlab.com
+2. create a database 
+3. create an user:
+  username: ricardo
+  password: letmein
+4. make suer the read-nly check box is NOT ticket
+
+5. npm install --save mongoose 
+6. add the mongoDB url to the keys files
+7. in the index.js add the import s for mongoose and the keys and add mongoose.connect();
+8. create a folder named models
+9. inside the folder create User.js
+10. create the schema and the model    
