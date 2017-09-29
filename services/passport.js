@@ -15,6 +15,7 @@ passport.deserializeUser((id, done) => {
   });
 });
 
+// Proxy added
 passport.use(
   new GoogleStrategy(
     {
