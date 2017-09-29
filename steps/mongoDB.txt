@@ -10,4 +10,6 @@
 7. in the index.js add the import s for mongoose and the keys and add mongoose.connect();
 8. create a folder named models
 9. inside the folder create User.js
-10. create the schema and the model    
+10. create the schema and the model  
+11. Add serializeUser and deserializeUser
+12. npm install --save cookie-session  
