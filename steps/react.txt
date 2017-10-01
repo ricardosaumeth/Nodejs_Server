@@ -1,0 +1,31 @@
+1. Inside the server folder type:  
+1.1 npm install -g create-react-app
+1.2 create-react-app client
+!important the 'client' name is very mandatory
+
+2. To not use two cdm windows to run the backend and front server. In the server package json we add
+  in the script section: 
+    "client": "npm run start --prefix client"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  See package.json for more details.   
+2.2 Install concurrently: npm install --save concurrently
+ 
+3. in the client package.json add:
+
+"proxy": {
+    "/auth/google":{
+      "target": "http://localhost:5000"
+    }
+  },
+
+3.1 Re-start the server 
+
+/******************************************************************/
+Install dependencies for reat INSIDE of the client folder
+
+1. npm install --save redux react-redux react-router-dom 
+2. npm install --save materialize-css
+3. npm install --save axios redux-thunk
+
+Add react code... normal procedure...
+Note: tweak the package.json file in the client folder to use the right proxy
