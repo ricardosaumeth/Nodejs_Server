@@ -1,0 +1,8 @@
+1. Sing in in stripe. Click API on the left to see the keys
+2. Install stripe checkout react
+3. Inside the client folder type: npm install --save react-stripe-checkout
+4. Add the keys to the config folder
+5. Add the KEYS in heroku
+6. Add .env.development and .env.production
+7. YOU MUST RESTART THE SERVER!!
+8. create a Payment.js component
