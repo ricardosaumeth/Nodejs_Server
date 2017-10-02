@@ -6,3 +6,9 @@
 6. Add .env.development and .env.production
 7. YOU MUST RESTART THE SERVER!!
 8. create a Payment.js component
+
+9. In the SERVER folder install'
+npm install --save stripe
+
+10. install body-parser
+npm install --save body-parser
