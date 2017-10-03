@@ -1,0 +1,5 @@
+1. Create an account: https://app.sendgrid.com
+2. https://app.sendgrid.com/settings/api_keys create an api. Copy the key, Add it to the
+project and to heroku
+In the server folder
+3. npm install --save sendgrid
