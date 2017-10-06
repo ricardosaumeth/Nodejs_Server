@@ -29,3 +29,7 @@ Install dependencies for reat INSIDE of the client folder
 
 Add react code... normal procedure...
 Note: tweak the package.json file in the client folder to use the right proxy
+
+/******************************************************************/
+
+1. npm install --save redux-form
