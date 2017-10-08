@@ -7,24 +7,24 @@ import Header from './Header';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
-//const SurveyNew = () => <h2>SurveyNew</h2>;
 
 class App extends Component {
-
-  componentDidMount(){
+  componentDidMount() {
     this.props.fetchUser();
   }
 
-  render(){
+  render() {
     return (
+      <div className="container">
         <BrowserRouter>
-          <div className="container">
+          <div>
             <Header />
-            <Route exact path="/" component={Landing}/>
-            <Route exact path="/surveys" component={Dashboard}/>
-            <Route path="/surveys/new" component={SurveyNew}/>  
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/surveys" component={Dashboard} />
+            <Route path="/surveys/new" component={SurveyNew} />
           </div>
         </BrowserRouter>
+      </div>
     );
   }
 }
